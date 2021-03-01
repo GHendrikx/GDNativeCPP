@@ -11,7 +11,7 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="D:\Users\Geoffrey\CPPForGameEngines\GodOfWar\src" />
+            <option value="D:\Users\Geoffrey\GDNativeCPP\src" />
           </set>
         </option>
         <option name="switches" value="--just-print --print-directory --keep-going" />

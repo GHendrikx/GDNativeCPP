@@ -16,7 +16,7 @@ layers = 2147483649
 use_collision = true
 mesh = SubResource( 1 )
 script = ExtResource( 2 )
-Speed = 2.0
+Speed = 0.5
 
 [node name="Camera" type="Camera" parent="Player"]
 transform = Transform( 1, 0, 0, 0, 0.925256, 0.379343, 0, -0.379343, 0.925256, 0, 3.43213, 4.57013 )
@@ -25,7 +25,7 @@ transform = Transform( 1, 0, 0, 0, 0.925256, 0.379343, 0, -0.379343, 0.925256, 0
 transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, 0, 0, -3.55 )
 
 [node name="Shield" parent="Player" instance=ExtResource( 4 )]
-transform = Transform( -3, 0, -8.69354e-05, 0, 3, 0, 0.000260806, 0, -1, 0, 0.843413, -2.58918 )
+transform = Transform( -3, 0, -8.69354e-05, 0, 3, 0, 0.000593587, 0, -2.27597, 0, 0.125962, -1.22241 )
 visible = false
 
 [node name="Player" type="RigidBody" parent="Player"]

@@ -7,3 +7,12 @@
 
 [node name="Shield" parent="." instance=ExtResource( 1 )]
 script = ExtResource( 2 )
+
+[node name="Shield" parent="Shield" instance=ExtResource( 1 )]
+transform = Transform( -1, 0, -3.25841e-07, 0, 1, 0, 3.25841e-07, 0, -1, 0, 0, -1.01465 )
+
+[node name="Shield3" parent="Shield" instance=ExtResource( 1 )]
+transform = Transform( -1.62921e-07, 0, -1, 0, 1, 0, 1, 0, -1.62921e-07, -0.532842, 0, -0.483683 )
+
+[node name="Shield4" parent="Shield" instance=ExtResource( 1 )]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, 0.565871, 0, -0.428982 )
