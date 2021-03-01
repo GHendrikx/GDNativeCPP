@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://bin/ScoreIndicator.gdns" type="Script" id=1]
+[ext_resource path="res://Sprites/Score.png" type="Texture" id=2]
+
+[node name="Score" type="Node2D"]
+
+[node name="ScoreTimer" type="Timer" parent="."]
+autostart = true
+
+[node name="Label" type="Label" parent="."]
+margin_left = 814.0
+margin_top = 5.0
+margin_right = 1022.0
+margin_bottom = 70.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "s"
+align = 1
+valign = 1
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Score" type="Sprite" parent="Label"]
+position = Vector2( -97.554, 30.593 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 2 )
+[connection signal="timeout" from="ScoreTimer" to="Label" method="_on_ScoreTimer_timeout"]

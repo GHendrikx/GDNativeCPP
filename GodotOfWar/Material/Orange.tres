@@ -1,0 +1,6 @@
+[gd_resource type="ParticlesMaterial" format=2]
+
+[resource]
+emission_shape = 1
+emission_sphere_radius = 1.0
+color = Color( 0.862745, 0.984314, 0, 1 )

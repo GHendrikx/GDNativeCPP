@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="PlaneMesh" id=1]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="Floor" type="CSGMesh" parent="."]
+transform = Transform( 10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0 )
+use_collision = true
+mesh = SubResource( 1 )

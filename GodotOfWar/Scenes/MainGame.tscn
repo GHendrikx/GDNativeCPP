@@ -1,0 +1,54 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Scenes/Floor.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/InputManager.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scenes/ScoreIndicator.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Scenes/EntityManager.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=5]
+[ext_resource path="res://bin/GameManager.gdns" type="Script" id=6]
+[ext_resource path="res://Scenes/Lives.tscn" type="PackedScene" id=7]
+
+[node name="root" type="Spatial"]
+script = ExtResource( 6 )
+
+[node name="Floor" parent="." instance=ExtResource( 1 )]
+transform = Transform( 4.49899, 0, 0, 0, 0.886992, 0, 0, 0, 4.33991, 0, -0.363716, 0 )
+
+[node name="EntityManager" parent="." instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.22464, 0 )
+
+[node name="spawn0" parent="EntityManager" index="0"]
+transform = Transform( -1, 0, -3.25841e-07, 0, 1, 0, 3.25841e-07, 0, -1, 0, 0.0872835, 24.9901 )
+
+[node name="spawn1" parent="EntityManager" index="1"]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, -19.7482, 0.0872835, 0 )
+
+[node name="spawn2" parent="EntityManager" index="2"]
+transform = Transform( -1.62921e-07, 0, -1, 0, 1, 0, 1, 0, -1.62921e-07, 30.0997, 0.0872835, 0 )
+
+[node name="spawn3" parent="EntityManager" index="3"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0872835, -35.0296 )
+
+[node name="Player" parent="." instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.737059, 0 )
+
+[node name="Camera" parent="Player/Player" index="0"]
+transform = Transform( 1, 0, 0, 0, 0.835059, 0.55016, 0, -0.55016, 0.835059, 0.557865, 4.85973, 4.77191 )
+
+[node name="Attack" parent="Player/Player" index="1"]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, 0, -1.46872, -3.55 )
+
+[node name="InputManager" parent="." instance=ExtResource( 2 )]
+
+[node name="Lives" parent="." instance=ExtResource( 7 )]
+
+[node name="EntityTimer" type="Timer" parent="."]
+wait_time = 4.0
+autostart = true
+
+[node name="Score" parent="." instance=ExtResource( 3 )]
+[connection signal="timeout" from="EntityTimer" to="EntityManager" method="_on_Timer_timeout"]
+
+[editable path="EntityManager"]
+
+[editable path="Player"]

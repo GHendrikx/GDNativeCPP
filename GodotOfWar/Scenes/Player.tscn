@@ -1,0 +1,34 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://bin/Player.gdns" type="Script" id=2]
+[ext_resource path="res://Scenes/Shield.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Scenes/Attack.tscn" type="PackedScene" id=5]
+
+[sub_resource type="CubeMesh" id=1]
+
+[sub_resource type="BoxShape" id=2]
+
+[node name="root" type="Spatial"]
+
+[node name="Player" type="CSGMesh" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0362108, -0.0407677, 0.0566583 )
+layers = 2147483649
+use_collision = true
+mesh = SubResource( 1 )
+script = ExtResource( 2 )
+Speed = 0.4
+
+[node name="Camera" type="Camera" parent="Player"]
+transform = Transform( 1, 0, 0, 0, 0.925256, 0.379343, 0, -0.379343, 0.925256, 0, 3.43213, 4.57013 )
+
+[node name="Attack" parent="Player" instance=ExtResource( 5 )]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, 0, 0, -3.55 )
+
+[node name="Shield" parent="Player" instance=ExtResource( 4 )]
+transform = Transform( -3, 0, -8.69354e-05, 0, 3, 0, 0.000260806, 0, -1, 0, 0, -2.58918 )
+visible = false
+
+[node name="Player" type="RigidBody" parent="Player"]
+
+[node name="CollisionShape" type="CollisionShape" parent="Player/Player"]
+shape = SubResource( 2 )

@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://bin/Lives.gdns" type="Script" id=1]
+[ext_resource path="res://Sprites/Lives.png" type="Texture" id=2]
+
+[node name="Score" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+margin_left = 0.588547
+margin_top = 0.691895
+margin_right = 268.588
+margin_bottom = 131.692
+rect_min_size = Vector2( 5, 5 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "1"
+align = 2
+valign = 1
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 131.373, 63.5677 )
+scale = Vector2( 0.25, 0.25 )
+texture = ExtResource( 2 )

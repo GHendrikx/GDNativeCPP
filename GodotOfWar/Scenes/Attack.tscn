@@ -1,0 +1,35 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Models/BoCt.obj" type="ArrayMesh" id=1]
+[ext_resource path="res://bin/Attack.gdns" type="Script" id=2]
+[ext_resource path="res://Material/Orange.tres" type="Material" id=3]
+
+[sub_resource type="BoxShape" id=1]
+extents = Vector3( 4.09687, 1, 1 )
+
+[node name="Spatial" type="Spatial"]
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, 0, 0, 0 )
+
+[node name="Sword" type="RigidBody" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.546028, 0, 8.89595e-08 )
+collision_layer = 19
+collision_mask = 19
+mode = 3
+continuous_cd = true
+contacts_reported = 10
+contact_monitor = true
+script = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="Sword"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.12009, 0.372975, 5.08329e-07 )
+shape = SubResource( 1 )
+
+[node name="Sword" type="CSGMesh" parent="Sword"]
+transform = Transform( -1, 3.25841e-07, 0, 5.30863e-14, 1.62921e-07, -1, -3.25841e-07, -1, -1.62921e-07, 2.82887, 0, 4.60882e-07 )
+layers = 2147483649
+use_collision = true
+collision_mask = 2147483649
+mesh = ExtResource( 1 )
+material = ExtResource( 3 )
+[connection signal="body_entered" from="Sword" to="Sword" method="_on_RigidBody_body_entered"]
+[connection signal="visibility_changed" from="Sword/CollisionShape" to="Sword" method="_on_CollisionShape_visibility_changed"]

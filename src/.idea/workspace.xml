@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60abb6be-74c9-4dd2-a579-d0995979dfab" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MakefileLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="src" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="src" />
+                <option name="path" value="D:\Users\Geoffrey\CPPForGameEngines\GodOfWar\src" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="1i8Ht8tSoQZQCxJjdqfzLtQQ0Lg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Makefile" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="scons" />
+      <command value="dir" />
+      <command value="sudo apt install -y build-essential curl gdebi aptitude git cmake net-tools software-properties-common gcc g++ clang" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60abb6be-74c9-4dd2-a579-d0995979dfab" name="Default Changelist" comment="" />
+      <created>1601282511903</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601282511903</updated>
+      <workItem from="1601282513284" duration="280000" />
+      <workItem from="1601282805989" duration="14000" />
+      <workItem from="1601282832973" duration="1041000" />
+      <workItem from="1601283915694" duration="2949000" />
+      <workItem from="1602512253831" duration="551000" />
+      <workItem from="1602512856639" duration="1775000" />
+      <workItem from="1602578396485" duration="3564000" />
+      <workItem from="1602582659228" duration="16578000" />
+      <workItem from="1602663609049" duration="2235000" />
+      <workItem from="1612273508087" duration="699000" />
+      <workItem from="1612446878155" duration="1924000" />
+      <workItem from="1612529470418" duration="11694000" />
+      <workItem from="1612709207018" duration="756000" />
+      <workItem from="1612710334073" duration="2069000" />
+      <workItem from="1612972407262" duration="5843000" />
+      <workItem from="1614090585904" duration="3729000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="526" y="236" key="#Notifications" timestamp="1612447740424">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="526" y="236" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1612447740424" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612448812869">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1612448812869" />
+    <state x="637" y="162" key="EnvironmentVariablesDialog" timestamp="1612448727230">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="637" y="162" key="EnvironmentVariablesDialog/0.0.1536.824@0.0.1536.824" timestamp="1612448727230" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1612448499909">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1612448499909" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1612537802093">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1612537802093" />
+    <state x="1085" y="250" width="670" height="811" key="dock-window-1" timestamp="1612972756760">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="1085" y="250" width="670" height="811" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1612972756760" />
+    <state x="325" y="316" width="886" height="208" key="makefile.clean.confirm.dialog" timestamp="1612709241511">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="325" y="316" width="886" height="208" key="makefile.clean.confirm.dialog/0.0.1536.824@0.0.1536.824" timestamp="1612709241511" />
+    <state x="425" y="189" width="672" height="677" key="run.anything.popup" timestamp="1612708632801">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="189" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1612708632801" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1614092400521">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1614092400521" />
+  </component>
+</project>
