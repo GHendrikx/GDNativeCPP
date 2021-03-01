@@ -80,5 +80,7 @@ void Player::_defend(bool active)
 }
 
 void Player::hit(){
-    GameManager::lives->_update_Lives(Player::damage);
+
+    if(!Player::shieldActive)
+        GameManager::lives->_update_Lives(Player::damage);
 }
