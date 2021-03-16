@@ -15,7 +15,7 @@ script = ExtResource( 6 )
 transform = Transform( 4.49899, 0, 0, 0, 0.886992, 0, 0, 0, 4.33991, 0, -0.363716, 0 )
 
 [node name="EntityManager" parent="." instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.22464, 0 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2821, 0 )
 
 [node name="spawn0" parent="EntityManager" index="0"]
 transform = Transform( -1, 0, -3.25841e-07, 0, 1, 0, 3.25841e-07, 0, -1, 0, 0.0872835, 24.9901 )
@@ -30,13 +30,16 @@ transform = Transform( -1.62921e-07, 0, -1, 0, 1, 0, 1, 0, -1.62921e-07, 30.0997
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0872835, -35.0296 )
 
 [node name="Player" parent="." instance=ExtResource( 5 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.737059, 0 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.789531, 0 )
+
+[node name="Player" parent="Player" index="0"]
+Speed = 0.5
 
 [node name="Camera" parent="Player/Player" index="0"]
 transform = Transform( 1, 0, 0, 0, 0.835059, 0.55016, 0, -0.55016, 0.835059, 0.557865, 4.85973, 4.77191 )
 
 [node name="Attack" parent="Player/Player" index="1"]
-transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, 0, -1.46872, -3.55 )
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, 0, -1.34455, -3.55 )
 
 [node name="InputManager" parent="." instance=ExtResource( 2 )]
 

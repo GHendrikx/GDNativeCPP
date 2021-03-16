@@ -16,7 +16,6 @@ layers = 2147483649
 use_collision = true
 mesh = SubResource( 1 )
 script = ExtResource( 2 )
-Speed = 0.5
 
 [node name="Camera" type="Camera" parent="Player"]
 transform = Transform( 1, 0, 0, 0, 0.925256, 0.379343, 0, -0.379343, 0.925256, 0, 3.43213, 4.57013 )
